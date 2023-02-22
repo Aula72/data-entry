@@ -1,0 +1,83 @@
+section a
+question one
+i)
+ii) object
+iii)static variable is one that belongs to a class rather than an object
+iv) immutable class is one whose object instances cannot be modified
+v) an inner class is one nested within another class
+vi)TRUE
+vii) an object is an instance of a class
+viii) 
+ix)
+x) - it's name must match the class name
+   - it doesn't have return type
+
+question two
+i)
+ii) wrong
+iii) 
+iv)Agree
+v) static boolean songOfTheYear = touchIt;
+vi) a default construct is one that Java creates for any class in case a programmer does not create one, in other words every class has by default has one constructor method
+vii) inheritance
+viii) instantiation
+ix) implements
+x) an object from a class
+
+section b
+question one
+a)
+public class FoodItem{
+	public Sting name;
+	private String displayPriceBoolean{
+		//some code here
+	}
+	//class's construct
+	//assuming the construct will always need an argument
+	public Fooditem(String name){
+		this.name = name; 
+	}
+}
+
+b)
+public class FoodItem{
+	public Sting name;
+	private String displayPriceBoolean{
+		//some code here
+	}
+	//class's construct
+	//assuming the construct will always need an argument
+	public Fooditem(String name){
+		this.name = name; 
+	}
+	
+}
+
+c)
+class Driver{
+	
+	public static void main(String [] args){
+		Fooditem foodItem = new Fooditem("soya"); //this calls the constructor, and initialize the name to soya
+		fooditem.displayPrice(true);
+	}
+	
+}
+d)image uploaded
+e)
+private int displayPrice(boolean highPrice, int previousPrice){
+
+}
+question three
+a) (i) An abstract class is a restricted class that cannot be used to create objects.
+(ii) abstract class is accessed using a keyword 'extends' while an interface is accessed using the keyword 'implements'
+b) an abstract class cannot be instantiated because it is not a concrete class
+c) - when a class is create with a keyword abstract
+- when a class contains atleast one abstract method
+d) 
+class Honda extends Bike{
+	public void changeGear(){
+		System.out.printIn("Honda gear is changed");
+	}
+} 
+e) No her arguement not right and has a problem because in Java an abstract can not be direct instatiated but to access it, it must be inherited from another class
+
